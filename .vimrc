@@ -1,6 +1,6 @@
 set laststatus=2
 set t_Co=256
-set nocp
+set nocp 
 set noshowmode
 
 syntax on 
