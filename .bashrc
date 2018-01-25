@@ -11,6 +11,7 @@ alias ls='ls --color=auto'
 alias df='df -h'
 alias ..="cd .."
 alias ~='cd ~'
+alias ff='find . -type f -name '
 
 PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 set -o vi
@@ -26,9 +27,13 @@ alias prev='playerctl previous'
 # git aliases
 alias gs='git status'
 
-# iex alias for mix projets
+# iex alias for mix projets (elixir tool)
 alias iexs='iex -S mix'
 alias mixc='mix compile'
 
 # alias for backing up dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
+
+# alias that opens a file with the default program that is assigned to its mimetype.
+alias open='xdg-open'
+
