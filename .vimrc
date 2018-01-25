@@ -10,7 +10,7 @@ set relativenumber
 set tabstop=4 shiftwidth=2 expandtab
 set shiftwidth=4 "ensures that indent, >>, moves 4 spaces"
 colorscheme molokai
-set colorcolumn=120
+set colorcolumn=90
 set foldmethod=indent "adds a fold for every block of code that is indented"
 
 let g:airline#extensions#tabline#enabled = 1
@@ -33,5 +33,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'jonathanfilip/lucius'
 
 Plug 'elixir-editors/vim-elixir'
+
+Plug 'gorodinskiy/vim-coloresque'
 
 call plug#end()
