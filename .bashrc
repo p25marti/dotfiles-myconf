@@ -37,3 +37,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
 # alias that opens a file with the default program that is assigned to its mimetype.
 alias open='xdg-open'
 
+# automatically cd into directories if just a path is given
+shopt -s autocd
