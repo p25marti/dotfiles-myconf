@@ -1,0 +1,9 @@
+# This is a backup that can be found at /usr/share/xsessions/awesome.backup
+# when reconfiguring a display manager like gdm, include this file to log into an
+# awesome session.
+[Desktop Entry]
+Name=awesome
+Comment=Highly configurable framework window manager
+TryExec=awesome
+Exec=awesome
+Type=Application
