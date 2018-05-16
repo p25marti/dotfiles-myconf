@@ -42,3 +42,6 @@ source /etc/profile.d/autojump.bash
 
 # automatically cd into directories if just a path is given
 shopt -s autocd
+
+# pacman alias for updating
+alias update="sudo pacman -Syu"
