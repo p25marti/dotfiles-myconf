@@ -45,3 +45,6 @@ shopt -s autocd
 
 # pacman alias for updating
 alias update="sudo pacman -Syu"
+
+# function for opening books as a background process
+background() { xdg-open "$@" &>/dev/null & }
