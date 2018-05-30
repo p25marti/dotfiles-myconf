@@ -34,6 +34,4 @@ Plug 'jonathanfilip/lucius'
 
 Plug 'elixir-editors/vim-elixir'
 
-Plug 'gorodinskiy/vim-coloresque'
-
 call plug#end()
