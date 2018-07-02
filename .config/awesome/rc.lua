@@ -41,7 +41,7 @@ end
 beautiful.init(awful.util.getdir("config") .. "themes/powerarrow-dark/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "gnome-terminal"
+terminal = "termite"
 editor = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
 
