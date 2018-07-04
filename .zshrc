@@ -101,6 +101,9 @@ alias open='xdg-open'
 
 # pacman alias for updating
 alias update="sudo pacman -Syu"
+    #
+# sourcing autojump script
+source /etc/profile.d/autojump.zsh 
 
 # function for opening books as a background process
 background() { xdg-open "$@" &>/dev/null & }
